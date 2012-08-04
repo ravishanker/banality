@@ -1,4 +1,6 @@
 Banality::Application.routes.draw do
+  root :to => 'fight#index'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
